@@ -54,6 +54,10 @@ module.exports = function(server) {
 					"id": "8",
 					"title": "Grunt",
 					"duration": 1
+				},{
+					"id": "9",
+					"title": "Git",
+					"duration": 2
 				}],
 
 				"jobs": [{
