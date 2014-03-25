@@ -1,0 +1,28 @@
+<section class="row about-row job">
+	<div class="content-area">
+		<div class="colum half">
+			<h2 class="colum-content">
+				{{model.position}} at {{model.company}}
+			</h2>
+		</div
+		><div class="colum half">
+			<h4 class="colum-content">
+				From <strong>{{model.startDate}}</strong> to <strong>{{model.endDate}}</strong> in <strong>Chicago, IL</strong>.
+			</h4>
+		</div>
+	</div>
+</section>
+<section class="row about-row job">
+	<div class="content-area">
+		<div class="colum half">
+			<p class="colum-content">
+				{{{model.description}}}
+			</p>
+		</div
+		><div class="colum half">
+			<ul class="colum-content pill-list inversed">
+				{{#each model.skills}}<li>{{title}}</li>{{/each}}
+			</ul>
+		</div>
+	</div>
+</section>

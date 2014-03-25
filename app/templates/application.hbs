@@ -1,0 +1,13 @@
+{{#if isModalVisible}}
+	<div class="modal-mask">
+		<div class="modal-content">
+			<div class="nav">
+				<button {{action "closeModal"}}>< Back</button>|<button {{action "closeModal"}}>View full resume</button>
+			</div>
+			{{outlet modal}}
+		</div>
+	</div>
+{{/if}}
+<div class="application">
+	{{outlet}}
+</div>
