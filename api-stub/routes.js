@@ -14,7 +14,7 @@ module.exports = function(server) {
 					"jobs": 	["1", "2"]
 				},
 			
-				"skills": [{
+				"skills": [{ 
 					"id": "1",
 					"title": "Javascript",
 					"duration": 3
