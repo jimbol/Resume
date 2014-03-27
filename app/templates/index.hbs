@@ -39,27 +39,36 @@
 </section>
 
 {{#each sections}}
-	<section class="row javascript-row">
+	<section class="row inversed-row header-row">
 		<div class="content-area">
-			<h2 class="colum-content block-colum-title">
+			<h1 class="colum-content block-colum-title">
 				{{title}}
-			</h2>
-			<div class="colum third">
-				{{{description}}}
-			</div
-			><div class="colum third">
-				<h3 class="colum-content">Relevant skills</h3>
-				<ul class="colum-content pill-list">
-					{{#each skills}}<li>{{title}}</li>{{/each}}
-				</ul>
-			</div
-			><div class="colum third">
-				<h3 class="colum-content">Relevant Work History</h3>
-				{{!-- {{!job-list jobs=jobs}} --}}
-				<ul class="pill-list colum-content">
-					{{#each jobs}}<li class="pill-button" {{action "openModal" "job" this}}>{{position}} - {{company}}</li>{{/each}}
-				</ul>
-			</div>
+			</h1>
 		</div>
 	</section>
+	{{#each subSections}}
+		<section class="row inversed-row sub-row">
+			<div class="content-area">
+				<h2 class="colum-content block-colum-title">
+					{{title}}
+				</h2>
+				<div class="colum third">
+					{{{description}}}
+				</div
+				><div class="colum third">
+					<h3 class="colum-content">Relevant skills</h3>
+					<ul class="colum-content pill-list">
+						{{#each skills}}<li>{{title}}</li>{{/each}}
+					</ul>
+				</div
+				><div class="colum third">
+					<h3 class="colum-content">Relevant Work History</h3>
+					{{!-- {{!job-list jobs=jobs}} --}}
+					<ul class="pill-list colum-content">
+						{{#each jobs}}<li class="pill-button" {{action "openModal" "job" this}}>{{position}} - {{company}}</li>{{/each}}
+					</ul>
+				</div>
+			</div>
+		</section>
+	{{/each}}
 {{/each}}

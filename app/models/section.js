@@ -5,8 +5,7 @@ var attr 		= DS.attr,
 var Section = DS.Model.extend({
 	title: 			attr(),
 	description: 	attr(),
-	skills: 		hasMany('skill'),
-	jobs: 			hasMany('job')
+	subSections: 	hasMany('subSection')
 });
 
 export default Section;
