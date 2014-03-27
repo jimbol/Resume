@@ -3,15 +3,22 @@
 		<div class="page-header">
 			<h1>{{profile.name}}</h1>
 			<h2>Javascript Developer</h2>
+			<ul class="nav pill-list inverted">
+				{{#each sections}}
+					<li {{action "scrollTo" slug}} class="pill-button">{{title}}</li>
+				{{/each}}
+			</ul>
 		</div>
-		<div class="colum third"></div
-		><div class="colum third"></div
-		><div class="colum third">
+		<div class="colum half"></div
+		><div class="colum half">
 			<h2 class="colum-content">
 				Creating things is awesome!
 			</h2>
 			<p class="colum-content">
-				Theres nothing more satisfying than making something that works and works well! So when people call developers wizards, if you've done it, you understand why.  It feels like you have magic at your finger tips.  You can sit down and create <em>anything</em>.  
+				Theres nothing more satisfying than making something that works and works well! So when people call developers wizards, if you've done it, you understand why.  It feels like you have magic at your finger tips.  You can sit down and create <em>anything</em>.
+			</p>
+			<p class="colum-content">
+				<a href="https://docs.google.com/file/d/0BzEjupXo3rHQYVFiMVphcDdfN00/edit" target="_blank"><button>Download Resume (PDF)</button></a>
 			</p>
 		</div>
 	</div>
@@ -39,15 +46,22 @@
 </section>
 
 {{#each sections}}
-	<section class="row inversed-row header-row">
+	<section {{bind-attr class="type:inverted:normal :row :header-row"}} {{bind-attr id="slug"}}>
 		<div class="content-area">
 			<h1 class="colum-content block-colum-title">
 				{{title}}
 			</h1>
+			{{#if description}}
+				<div class="content-area">
+					<div class="colum full">
+						{{{description}}}
+					</div>
+				</div>
+			{{/if}}
 		</div>
 	</section>
 	{{#each subSections}}
-		<section class="row inversed-row sub-row">
+		<section {{bind-attr class="section.type:inverted:normal :row :sub-row"}}>
 			<div class="content-area">
 				<h2 class="colum-content block-colum-title">
 					{{title}}

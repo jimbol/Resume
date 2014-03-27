@@ -27,6 +27,11 @@ export default Ember.Route.extend({
 				outlet: 'modal',
 				parentView: 'application'
 			});
+		},
+
+		scrollTo: function(slug){
+			var top = $('#' + slug).position().top;
+			$('body').animate({scrollTop: top}, 200)
 		}
 	}
 });

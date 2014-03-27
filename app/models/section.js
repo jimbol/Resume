@@ -4,6 +4,8 @@ var attr 		= DS.attr,
 
 var Section = DS.Model.extend({
 	title: 			attr(),
+	slug: 			attr(),
+	type: 			attr(),
 	description: 	attr(),
 	subSections: 	hasMany('subSection')
 });
