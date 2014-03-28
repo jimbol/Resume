@@ -2,7 +2,7 @@
   "name": "Jimbol",
   "namespace": "appkit",
   "APIMethod": "stub",
-  "proxyURL": "http://localhost:8000",
+  "proxyURL": "http://jimbol.herokuapp.com",
   "proxyPath": "/api",
   "version": "0.0.0",
   "private": true,
