@@ -57,9 +57,9 @@ module.exports = function(grunt) {
 
   Helpers.pkg = require("./package.json");
 
-  if (Helpers.isPackageAvailable("time-grunt")) {
-    require("time-grunt")(grunt);
-  }
+  // if (Helpers.isPackageAvailable("time-grunt")) {
+  //   require("time-grunt")(grunt);
+  // }
 
   // Loads task options from `tasks/options/` and `tasks/custom-options`
   // and loads tasks defined in `package.json`
