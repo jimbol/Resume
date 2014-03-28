@@ -204,7 +204,7 @@ module.exports = function(server) {
 					"slug": "contact",
 					"title": "Contact",
 					"subSections": [],
-					"description": "<p class=\"colum-content\"><strong>I am currently looking for new work.</strong>  To get in touch, shoot me an email at <a href=\"mailto:jim.hall.dev@gmail.com\">jim.hall.dev@gmail.com</a> or find me on <a href=\"http://www.linkedin.com/pub/jim-hall/23/57/aa8/\" target=\"_blank\" class=\"icon linkedin\">LinkedIn</a> or <a href=\"https://github.com/jimbol\" target=\"_blank\" class=\"icon github\">GitHub</a>.</p>"
+					"description": "<p class=\"colum-content\"><strong>I am currently looking for new work.</strong>  To get in touch, shoot me an email at <a href=\"mailto:jim.hall.dev@gmail.com\">jim.hall.dev@gmail.com</a> or find me on <a href=\"http://www.linkedin.com/pub/jim-hall/23/57/aa8/\" target=\"_blank\" class=\"icon linkedin\">LinkedIn</a> or <a href=\"https://github.com/jimbol\" target=\"_blank\" class=\"icon github\">GitHub</a>.</p><p class=\"colum-content\">Photo by <a href=\"http://elisalynnephotography.com\" target=\"_blank\">Elisa Lynne Photography</a></p>"
 				}],
 
 				"subSections": [{

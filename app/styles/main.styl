@@ -70,8 +70,9 @@ body {
 		margin-top: 1rem;
 		color: #ed8c72;
 		background-color: #fff;
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 		cursor: pointer;
+		font-family: "kg_happy_solidregular",arial;
 
 		&:hover {
 			color: #FFF;
@@ -177,17 +178,26 @@ body {
 		color: #fff;
 		padding-top: 3rem;
 		border-bottom: 3px solid #FF724D;
-		background-image: url("/assets/images/jim.jpg");
+		background-repeat: no-repeat;
+		background-image: url("/assets/images/jim_banner.jpg");
 		background-size: 100%;
 		background-position-y: center;
-		height: 25rem;
+		background-position-x: left;
+		height: 33rem;
 		
 		h1 {
-			color: #fff;
+			color: #ed8c72;
+			text-shadow: 3px 3px #5e2c1e;
 		}
 
 		h2 {
-			color: #FF724D;
+			color: #5e2c1e;
+		}
+
+		.callout {
+			padding-top: 1.5rem;
+			background-color: #fff;
+			color: #5e2c1e;
 		}
 
 	}
@@ -309,21 +319,24 @@ body {
 			}
 		}
 	}
-}
+	
+	@media (max-width: 800px) {
+		.colum {
+			width: 100% !important;
 
-@media (max-width: 800px) {
-	.colum {
-		width: 100% !important;
+		}
 
-	}
+		ul.nav {
+			list-style: none;
+			right: 0;
+			position: relative;
+		}
 
-	ul.nav {
-		list-style: none;
-		right: 0;
-		position: relative;
-	}
+		.cover-row {
+			height: 30rem;
+		}
 
-	.page-header {
+		.application .page-header {
 			margin: 0 1.5rem;
 			position: relative;
 			min-height: 8rem;
@@ -334,4 +347,5 @@ body {
 			}
 			
 		}
+	}
 }
