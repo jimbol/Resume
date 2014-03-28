@@ -14,7 +14,7 @@
     "start": "grunt server",
     "build": "grunt build:debug",
     "test": "grunt test:ci",
-    "postinstall": "node ./node_modules/bower/bin/bower install; node grunt dist"
+    "postinstall": "node ./node_modules/bower/bin/bower install; grunt dist"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,7 @@
     "express": "~3.4.8",
     "lockfile": "~0.4.2",
     "bower": "~1.2.7",
-    "grunt": "~0.4.2",
+    "grunt": "~0.4.1",
     "grunt-cli": "~0.1.9",
     "load-grunt-config": "~0.7.0",
     "grunt-contrib-watch": "~0.5.3",
