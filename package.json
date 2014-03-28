@@ -1,5 +1,5 @@
 {
-  "name": "app-kit",
+  "name": "Jimbol",
   "namespace": "appkit",
   "APIMethod": "stub",
   "proxyURL": "http://localhost:8000",
@@ -14,7 +14,7 @@
     "start": "grunt server",
     "build": "grunt build:debug",
     "test": "grunt test:ci",
-    "postinstall": "bower install"
+    "postinstall": "grunt dist"
   },
   "repository": {
     "type": "git",

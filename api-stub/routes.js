@@ -135,7 +135,7 @@ module.exports = function(server) {
 					"company": "Tribune Co.",
 					"startDate": "January, 2013",
 					"endDate": "July, 2013",
-					"description": "Built useful small JavaScript libraries used by our team.  Created jQuery modules used throughout site.  Lead small team of front end developers.  Performed code reviews and helped other developers solve problems.  Created templates using JSTL and JSP.",
+					"description": "Built useful small <strong>JavaScript libraries</strong> used by our team.  Created <strong>jQuery modules</strong> used throughout site.  Lead small team of front end developers.  Performed code reviews and helped other developers solve problems.  Created templates using JSTL and JSP.",
 					"skills": ["1", "6", "7", "8", "9", "10", "11", "12", "13", "17", "19"]
 
 				},{
@@ -198,7 +198,7 @@ module.exports = function(server) {
 					"type": "inverted",
 					"title": "Mentorship",
 					"subSections": [],
-					"description": "<p class=\"colum-content\">I believe there is nothing more important than sharing knowledge, especially when working with a team.  It improves the performance of individuals and, as a result, a team as a whole.  Whether it comes in the form of code reviews, structured training, or helping a developer with concepts that are new to them, I will always provide help (and I expect the same from my team mates).</p>"
+					"description": "<p class=\"colum-content\">I believe there is nothing more important than <strong>sharing knowledge</strong>, especially when working with a team.  It improves the performance of individuals and, as a result, a team as a whole.  Whether it comes in the form of <strong>code reviews, structured training, or helping a developer</strong> with concepts that are new to them, I will always provide help (and I expect the same from my team mates).</p>"
 				},{
 					"id": "4",
 					"slug": "contact",
@@ -218,7 +218,7 @@ module.exports = function(server) {
 				},{
 					"id": "2",
 					"title": "HTML5 / CSS3",
-					"description": "<p class=\"colum-content\">Having good clean markup and styles is imperative for a smooth operating application.  My approach is to build simple reusable structures, starting at a basic level and getting more granular as needed so as not to repeat work.</p><p class=\"colum-content\">For styles, I prefer using tools like Stylus or SASS which compile to CSS3, because they are more readable and structured.  Similarly, using Handlebars, JSTL, or other templating libraries which render to HTML5 can dramatically reduce a code base and make it more maintainable.</p><p class=\"colum-content\">My favorite part about CSS3 is the ability to add animation without touching Javascript.  Animations make for better interface by giving context to the user. </p>",
+					"description": "<p class=\"colum-content\">Having good clean markup and styles is imperative for a smooth operating application.  My approach is to build <strong>simple reusable structures</strong>, starting at a basic level and getting more granular as needed so as not to repeat work.</p><p class=\"colum-content\">For styles, I prefer using tools like <strong>Stylus</strong> or <strong>SASS</strong> which compile to CSS3, because they are more readable and structured.  Similarly, using <strong>Handlebars</strong>, JSTL, or other templating libraries which render to HTML5 can dramatically reduce a code base and make it more maintainable.</p><p class=\"colum-content\">My favorite part about CSS3 is the ability to add animation without touching Javascript.  Animations make for better interface by giving context to the user. </p>",
 					"skills": ["12", "13", "14", "15", "16", "17"],
 					"jobs": ["1", "2", "3", "4", "5", "6"],
 					"section": "1"
@@ -226,7 +226,7 @@ module.exports = function(server) {
 				},{
 					"id": "3",
 					"title": "Node.js",
-					"description": "<p class=\"colum-content\">With the growing popularity of a Node based back end, I have been given access to a powerful set of API and build process tools like Express, Grunt and Ember App Kit.  This breaks the barrier between front and back end and has allowed me to jump back and forth seamlessly.</p><p class=\"colum-content\">I have built template precompiler middleware that ensures the developer always has the latest code, without having to do a whole build.  I’ve used Grunt to take this to the next level, automatically updating the DOM with each saved change.  This site was built using Ember App Kit and the styles and Javascript has been minified into production ready code using Grunt.</p><p class=\"colum-content\"></p>",
+					"description": "<p class=\"colum-content\">With the growing popularity of a Node based back end, I have been given access to a powerful set of API and build process tools like <strong>Express</strong>, <strong>Grunt</strong> and <strong>Ember App Kit</strong>.  This breaks the barrier between front and back end and has allowed me to jump back and forth seamlessly.</p><p class=\"colum-content\">I have built <a href=\"https://github.com/jimbol/ember-template-middleware\" target=\"_blank\">template precompiler middleware</a> that ensures the developer always has the latest code, without having to do a whole build.  I’ve used Grunt to take this to the next level, automatically updating the DOM with each saved change.  This site was built using Ember App Kit and the styles and Javascript has been minified into production ready code using Grunt.</p><p class=\"colum-content\"></p>",
 					"skills": ["20", "21", "22", "23"],
 					"jobs": ["1"],
 					"section": "2"
