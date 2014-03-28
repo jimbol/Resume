@@ -14,11 +14,11 @@
     "start": "grunt server",
     "build": "grunt build:debug",
     "test": "grunt test:ci",
-    "postinstall": "./node_modules/bin/bower install; ./node_modules/bin/grunt dist"
+    "postinstall": "./node_modules/.bin/bower install; ./node_modules/.bin/grunt dist"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/stefanpenner/ember-app-kit.git"
+    "url": "git://github.com/jimbol/Resume.git"
   },
   "author": "",
   "license": "MIT",
