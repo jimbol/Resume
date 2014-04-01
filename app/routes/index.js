@@ -1,6 +1,6 @@
 export default Ember.Route.extend({
 	model: function() {
-		return this.store.find('profile', '533994dbc92274f0b4073c05')
+		return this.store.find('profile', 1);
 	},
 
 	setupController: function(controller, model) {
