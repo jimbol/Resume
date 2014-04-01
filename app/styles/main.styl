@@ -330,11 +330,34 @@ body {
 			list-style: none;
 			right: 0;
 			position: relative;
+
+			li.pill-button {
+				display: block;
+				background-color: #ffebe6;
+
+				&:hover {
+					background-color: #ed8c72;
+				}
+			}
+		}
+		
+		.row h1 {
+			font-size: 3rem;
 		}
 
 		.cover-row {
-			height: 30rem;
+			min-height: 30rem;
 			background-image: none;
+			margin-bottom: 1.5rem;
+			height: auto;
+
+			h1 {
+				font-size: 4.9rem;
+			}
+
+			button {
+				background-color: #ffebe6;
+			}
 		}
 
 		.application .page-header {
