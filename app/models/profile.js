@@ -4,9 +4,11 @@ var attr 		= DS.attr,
 	belongsTo 	= DS.belongsTo;
 
 var Profile = DS.Model.extend({
-	name: 		attr(),
-	skills: 	hasMany('skill'),
-	jobs: 		hasMany('job')
+	name: 			attr(),
+	skills: 		hasMany('skill', {async: true}),
+	jobs: 			hasMany('job', {async: true}),
+	sections: 		hasMany('section', {async: true}),
+	subSections: 	hasMany('subSection', {async: true})
 });
 
 export default Profile;

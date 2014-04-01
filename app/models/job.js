@@ -8,7 +8,7 @@ var Job = DS.Model.extend({
 	description: 	attr(),
 	startDate: 		attr(),
 	endDate: 		attr(),
-	skills: 		hasMany('skill')
+	skills: 		hasMany('skill', {async: true})
 });
 
 export default Job;

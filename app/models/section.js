@@ -7,7 +7,7 @@ var Section = DS.Model.extend({
 	slug: 			attr(),
 	type: 			attr(),
 	description: 	attr(),
-	subSections: 	hasMany('subSection')
+	subSections: 	hasMany('subSection', {async: true})
 });
 
 export default Section;

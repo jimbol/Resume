@@ -4,7 +4,7 @@
 			<h1>{{profile.name}}</h1>
 			<h2>Javascript Developer</h2>
 			<ul class="nav pill-list inverted">
-				{{#each sections}}
+				{{#each profile.sections}}
 					<li {{action "scrollTo" slug}} class="pill-button">{{title}}</li>
 				{{/each}}
 			</ul>
@@ -46,7 +46,7 @@
 	</div>
 </section>
 
-{{#each sections}}
+{{#each profile.sections}}
 	<section {{bind-attr class="type:inverted:normal :row :header-row"}} {{bind-attr id="slug"}}>
 		<div class="content-area">
 			<h1 class="colum-content block-colum-title">

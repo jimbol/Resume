@@ -6,8 +6,8 @@ var attr 		= DS.attr,
 var SubSection = DS.Model.extend({
 	title: 			attr(),
 	description: 	attr(),
-	skills: 		hasMany('skill'),
-	jobs: 			hasMany('job'),
+	skills: 		hasMany('skill', {async: true}),
+	jobs: 			hasMany('job', {async: true}),
 	section: 		belongsTo('section')
 });
 
