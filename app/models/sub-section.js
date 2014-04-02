@@ -76,9 +76,10 @@ SubSection.FIXTURES = [{
 	"description": "<p class=\"colum-content\">I have also used PHP and JSP to help build APIs and standard thin-client MCV websites.  I do not have extensive experience with either but I am a quick study and have made myself a valuable asset by learning what it needed to get the job done</p>",
 	"skills": [
 		"18",
-		"19"
+		"19",
+		"24"
 	],
-	"jobs": ["2", "4"],
+	"jobs": ["2", "4", "5"],
 	"section": "2"
 
 }];
