@@ -1,1 +1,1 @@
-PRODUCTION=true ./node_modules/.bin/forever index.js
+web: PRODUCTION=true ./node_modules/.bin/forever index.js
