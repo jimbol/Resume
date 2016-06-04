@@ -3,9 +3,10 @@
 let express = require('express');
 let app = express();
 
-let port = 3000;
+let port = process.env.PORT || 3000;
+
 if(process.env.PRODUCTION){
-  port = 80;
+  port = process.env.PORT;
 }
 
 let http = require('http').Server(app);
