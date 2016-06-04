@@ -6,7 +6,6 @@
   "main": "server.js",
   "scripts": {
     "start": "node index.js",
-    "prepublish": "npm run build",
     "build": "babel src -d lib && node build.js && npm run build-styles",
     "build-styles": "stylus src/styles.styl -o assets/index.css"
   },
