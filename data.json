@@ -1,0 +1,182 @@
+{
+    "sections": {
+        "introduction": {
+            "sections": [{
+                "subtitle": "Who is this guy?",
+                "description": "As long as I can remember I've enjoyed concepting, designing, and building things. In hindsight, it makes sense that I've wound up doing development. I use all these skills in my work and I relish it. \n I have been developing for over 6 years with my primary focus being server and client javascript development, feature architecture, and project leadership. I care about delivering well tested, performant, maintainable code and building tooling to enable others to do the same.\nVarious experiences have led me to concentrate on JavaScript as my primary language. The trends with JavaScript are thrilling to use and participate in. I thrive in this environment of new technology but also I crave a deeper knowledge of other languages and applications of software. My favorite pass time is to explore these and so I have dabbled with Python, Arduino, and Raspberry Pi.\n"
+            }]
+        },
+        "jsDev": {
+            "title": "Javascript Development",
+            "sections": [{
+                "subtitle": "Client Side",
+                "description": ["I have been doing client side development since the beginning of my career, spanning seven jobs, each with their own toolset. I prefer using tools that lead to readable, reusable code.  Lately, I've been interested in tools that simulate web components like React.js and Vueify."],
+                "skills": [4, 15, 16, 17, 35, 24, 25, 5, 6],
+                "jobs": [1, 2, 3, 4, 5, 6, 8]
+            }, {
+                "subtitle": "Server Side",
+                "description": ["The server is the connective tissue of a web application.  It pulls together resources and datasources and forms them in a way the client can consume while also accepting feedback from the client for later use.",
+                "Mostly, I have worked with Node / Express servers, building pages and apis.  Lately I have been interested in creating isomorphic tooling and using sockets for live updating."],
+                "skills": [
+                    34,
+                    11,
+                    4,
+                    35,
+                    16,
+                    5,
+                    6,
+                    32],
+                "jobs": [1, 2, 4]
+            }, {
+                "subtitle": "Build Tools",
+                "description": ["There are countless approaches for building the parts of an application. Sometimes I feel like using npm scripts is enough, but if I need more control Gulp has been my go-to. The two combined with CI tools like Travis or Jenkins you can automate much of the grunt work of building resources and deploying."],
+                "skills": [7, 19, 20, 22, 4, 8, 11, 12, 24],
+                "jobs": [1, 2]
+            }]
+        },
+        "otherDev": {
+            "title": "Other Experience",
+            "sections": [{
+                "subtitle": "HTML5 / CSS3",
+                "description": [
+                    "Having good clean markup and styles is imperative for a smooth operating application. My approach is to build simple reusable structures, starting at a basic level and getting more granular as needed so as not to repeat work.",
+                    "For styles, I prefer using tools like Stylus or SASS which compile to CSS3, because they are more readable and structured. Similarly, using Handlebars, Mustache, or other templating libraries which render to HTML5 can dramatically reduce a code base and make it more maintainable."
+                ],
+                "skills": [1,2,8,12],
+                "jobs": [1,2,3,4,5,6,7,8,9]
+            },{
+                "subtitle": "Tools",
+                "description": [
+                    "An important part of development is knowing the tools you use. I have learned and used quite a few over my career for source control, build tools, systems work, and tracking."
+                ],
+                "skills": [36, 7,19,20,21,22,32],
+                "jobs": [1,2]
+            },{
+                "subtitle": "Other Languages",
+                "description": [
+                    "At various times throughout my career I dabbled in other languages like Objective C, JSP, ActionScript 3, and even PHP. Lately I've been using Python to analyze and display political data and writing ."
+                ],
+                "skills": [4, 15, 16, 17, 24, 25, 5, 6],
+                "jobs": [1,2,7,8,9]
+            },]
+        },
+        "mentorship": {
+            "title": "Mentorship and Leadership",
+            "sections": [{
+                "subtitle": "Mentorship",
+                "description": [
+                    "I believe there is nothing more important than sharing knowledge, especially when working with a team. It improves the performance of individuals and, as a result, a team as a whole. Whether it comes in the form of code reviews, structured training, or helping a developer with concepts that are new to them, I will always provide help (and I expect the same from my team mates)."
+                ]
+            },{
+                "subtitle": "Leadership",
+                "description": [
+                    "For me, leading means to encourage and enable my teammates to accomplish our goals. This means enabling the team to make decisions and requires a strong knowledge of a project's systems. For this reason I value knowledge sharing via activities like stands, story mapping, and pairing.",
+                    "I have experience driving large feature development as a project lead and a scrum master."
+                ]
+            }]
+        }
+    },
+    "skills": {
+        "1": "HTML / HTML5",
+        "2": "CSS / CSS3",
+        "3": "ActionScript 3 / Flash",
+        "4": "Javascript / jQuery",
+        "5": "Architecture / Design Patterns",
+        "6": "Object Oriented Programming",
+        "7": "Git",
+        "8": "Handlebars / Mustache",
+        "9": "PHP",
+        "10": "Objective C / Cocoa",
+        "11": "Node / Express",
+        "12": "Stylus / SASS",
+        "13": "Agile / Scrum",
+        "14": "Story Mapping",
+        "15": "EmberJS / Ember Data",
+        "16": "MeteorJS",
+        "17": "Backbone",
+        "18": "Team Leadership",
+        "19": "NPM Modules",
+        "20": "Gulp / Make / Build tools",
+        "21": "Splunk",
+        "22": "CI",
+        "23": "Python",
+        "24": "React / React Native / Vue.js",
+        "25": "Redux / Flux",
+        "26": "Statistics",
+        "27": "JSTL",
+        "28": "JSP",
+        "29": "Design",
+        "30": "Motion Graphics",
+        "31": "Videography",
+        "32": "HTTP",
+        "33": "Bash",
+        "34": "Socket.io",
+        "35": "Promises",
+        "36": "iTerm / Sublime Text",
+    },
+
+    "jobs": [{},{
+        "company": "Groupon",
+        "title": "Software Engineer",
+        "startTime": "October 14",
+        "endTime": "Present",
+        "skills": [1, 2, 4, 5, 6, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 22, 24, 25, 32, 33],
+        "description": "Lead development of new features and npm modules for cross team initiatives.  Contributed to build and CI tools. Planned and story mapped features, wrote stories and AC.  Worked extensively with Node and Express to build pages and services for Groupon’s search, browse, and homepages."
+    }, {
+        "company": "On Behalf",
+        "title": "Founder, Developer, Analyst",
+        "startTime": "March 14",
+        "endTime": "Present",
+        "skills": [1, 2, 4, 5, 7, 8, 11, 12, 15, 18, 23, 26],
+        "description": "Brought together a team of volunteers to build a site showing who funds your national representatives. (www.onwhosebehalf.com)  Analyzed voting data to build understanding of voting habits.  "
+    }, {
+        "company": "Discover Education",
+        "title": "Front End Developer",
+        "startTime": "March 14",
+        "endTime": "October 14",
+        "skills": [1, 2, 4, 5, 6, 7, 8, 12, 13, 17],
+        "description": "Maintain parts of an existing applications built in Backbone and Require with LESS and Handlebars for styles and markup.  Work with a team to architect and build applications and modules.  Write tests in Jasmine for all new code.  Refactor existing code with better separation of concerns and tests."
+    }, {
+        "company": "Kaplan",
+        "title": "Javascript Developer",
+        "startTime": "July 13",
+        "endTime": "March 14",
+        "skills": [1, 2, 4, 5, 6, 7, 8, 11, 12, 13, 14, 15, 17, 18],
+        "description": "Developed parts of a web application using EmberJS, Ember Data, Stylus, and Handlebars.  Architected parts of the application used by multiple team members.  Performed Scrum master duties.  Worked with Node and Express.  Built Ember template precompiler Middleware.  Used Git in a well structured branching system. "
+    }, {
+        "company": "Tribune",
+        "title": "Front End Developer",
+        "startTime": "January 13",
+        "endTime": "July 13",
+        "skills": [1, 2, 4, 5, 13, 18, 27, 28],
+        "description": "Built useful small JavaScript libraries used by our Scrum team.  Created jQuery modules used throughout site.  Lead small team of front end developers.  Performed code reviews and helped other developers solve problems.  Created templates using JSTL and JSP."
+    }, {
+        "company": "Sears",
+        "title": "Front End Developer",
+        "startTime": "July 12",
+        "endTime": "January 13",
+        "skills": [1, 2, 4, 5, 8],
+        "description": "Worked on a large team pinpointing, debugging and fixing javascript and css issues and creating promotional pages. Rebuilt the JavaScript module loader used by the team to render the home page on my own initiative.  Spent time learning the ins and outs of Javascript."
+    }, {
+        "company": "Pander Commander LLC.",
+        "title": "Developer, Co-founder",
+        "startTime": "March 12",
+        "endTime": "February 13",
+        "skills": [1, 2, 4, 7, 9, 10],
+        "description": "Brought together a small group of talented developers to create a social startup.  Built parts of our javascript library and plugins. Built PHP models with MySQL queries for our CRUD system.  Began work on an iOS version of our application."
+    }, {
+        "company": "C|Change Inc",
+        "title": "Developer",
+        "startTime": "July 11",
+        "endTime": "July 12",
+        "skills": [1, 2, 4, 9, 10, 29, 30],
+        "description": "Sole developer for 14 person marketing company. Built client and experimental websites.  Taught myself Objective C and developed two iPhone apps.   Designed print media, interfaces, and motion graphics. Received Webby honorable mention for NetArt."
+    }, {
+        "company": "AlphaMetrix LLC.",
+        "title": "Graphic Designer, Videographer",
+        "startTime": "Dec 09",
+        "endTime": "July 11",
+        "skills": [1, 2, 3, 29, 30, 31],
+        "description": "Worked on a small team doing interface, logo, and print design.  Did web and flash development, filming, production, and motion graphics.  Worked in Wordpress and a web content editor.  "
+    }]
+}

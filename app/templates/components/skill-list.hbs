@@ -1,7 +1,0 @@
-{{#if focusedSkill}}
-	{{focusedSkill.title}}
-{{else}}
-	{{#each skills}}
-		<li {{action "actionFocus" this}}>{{title}}</li>
-	{{/each}}
-{{/if}}

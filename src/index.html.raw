@@ -1,0 +1,195 @@
+<div class="application">
+  <section class="row cover-row">
+    <div class="content-area">
+      <div class="page-header">
+        <h1>Jim Hall</h1>
+        <h2>Javascript Developer</h2>
+        <ul class="nav pill-list inverted">
+
+            <li class="pill-button">Front End Development</li>
+
+            <li class="pill-button">Server Side Development</li>
+
+            <li class="pill-button">Mentorship</li>
+
+            <li class="pill-button">Contact</li>
+
+        </ul>
+      </div>
+      <div class="colum third"></div><div class="colum third"></div><div class="colum third callout">
+        <h2 class="colum-content">
+          Creating things is awesome!
+        </h2>
+        <p class="colum-content">
+          Theres nothing more satisfying than making something that works and works well! So when people call developers wizards, if you've done it, you understand why.  It feels like you have magic at your finger tips.  You can sit down and create <em>anything</em>.
+        </p>
+        <p class="colum-content">
+          <a href="https://docs.google.com/file/d/0BzEjupXo3rHQYVFiMVphcDdfN00/edit" target="_blank"><button>Download Resume (PDF)</button></a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+<section class="row about-row">
+  <div class="content-area">
+    <h2 class="colum-content block-colum-title">
+      Who is this guy?
+    </h2>
+    <div class="colum half">
+      <p class="colum-content">
+        As long as I can remember I've enjoyed <strong>concepting</strong>, <strong>designing</strong>, and <strong>building things</strong>.  In hindsight, it makes sense that I've wound up doing development.  I use all these skills in my work and, in turn, I <a href="/assets/images/relish_dog.jpg" target="_blank">relish</a> it.
+      </p>
+      <p class="colum-content">
+        I've been developing for over <strong>4 years</strong> here in Chicago, IL.  My primary focus has been <strong>front end web development</strong> but I have server side and mobile development experience as well.
+      </p>
+    </div><div class="colum half">
+      <p class="colum-content">
+        Various experiences have led me to concentrate on <strong>JavaScript</strong> as my primary language.  The trends with JavaScript are thrilling to use and participate in.  I thrive in this environment of new technology.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+  <section class="inverted row header-row" id="front-end">
+    <div class="content-area">
+      <h1 class="colum-content block-colum-title">
+        Front End Development
+      </h1>
+
+    </div>
+  </section>
+
+    <section class="inverted row sub-row">
+      <div class="content-area">
+        <h2 class="colum-content block-colum-title">
+          Javascript
+        </h2>
+        <div class="colum third">
+          <p class="colum-content">My focus this last year has been <strong>Ember application development</strong>.  This <strong>MVVM framework</strong> is <a href="https://www.youtube.com/watch?v=VI__nGPT9kk" target="_blank">arguably the best</a> for team based application development.</p><p class="colum-content">I also enjoy low level work and have built many small tools in plain JS.  This has given me a strong understanding of the underlying tools and <strong>APIs</strong> in Javascript.</p>
+        </div><div class="colum third">
+          <h3 class="colum-content">Relevant skills</h3>
+          <ul class="colum-content pill-list">
+            <li>Javascript</li><li>Frameworks</li><li>Ember</li><li>Ember Data</li><li>MVVM</li><li>jQuery</li><li>Design Patterns</li><li>Application Architecture</li><li>APIs</li><li>HTML5 APIs</li><li>JSON</li>
+          </ul>
+        </div><div class="colum third">
+          <h3 class="colum-content">Relevant Work History</h3>
+
+          <ul class="pill-list colum-content">
+            <li class="pill-button">Javascript Developer - Qualified (part of Kaplan)</li><li class="pill-button">Front End Developer - Tribune Co.</li><li class="pill-button">Front End Developer - Sears Holdings</li><li class="pill-button">Co-founder and Developer - Pander Commander</li><li class="pill-button">Web Developer - C|Change Inc.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="inverted row sub-row">
+      <div class="content-area">
+        <h2 class="colum-content block-colum-title">
+          HTML5 / CSS3
+        </h2>
+        <div class="colum third">
+          <p class="colum-content">Having good clean markup and styles is imperative for a smooth operating application.  My approach is to build <strong>simple reusable structures</strong>, starting at a basic level and getting more granular as needed so as not to repeat work.</p><p class="colum-content">For styles, I prefer using tools like <strong>Stylus</strong> or <strong>SASS</strong> which compile to CSS3, because they are more readable and structured.  Similarly, using <strong>Handlebars</strong>, JSTL, or other templating libraries which render to HTML5 can dramatically reduce a code base and make it more maintainable.</p><p class="colum-content">My favorite part about CSS3 is the ability to add animation without touching Javascript.  Animations make for better interface by giving context to the user. </p>
+        </div><div class="colum third">
+          <h3 class="colum-content">Relevant skills</h3>
+          <ul class="colum-content pill-list">
+            <li>CSS3 / CSS</li><li>HTML5 / HTML</li><li>Stylus</li><li>SASS</li><li>Handlebars / Mustache</li><li>JSTL</li>
+          </ul>
+        </div><div class="colum third">
+          <h3 class="colum-content">Relevant Work History</h3>
+
+          <ul class="pill-list colum-content">
+            <li class="pill-button">Javascript Developer - Qualified (part of Kaplan)</li><li class="pill-button">Front End Developer - Tribune Co.</li><li class="pill-button">Front End Developer - Sears Holdings</li><li class="pill-button">Co-founder and Developer - Pander Commander</li><li class="pill-button">Web Developer - C|Change Inc.</li><li class="pill-button">Graphic Designer - AlphaMetrix LLC</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+  <section class="normal row header-row" id="server-side">
+    <div class="content-area">
+      <h1 class="colum-content block-colum-title">
+        Server Side Development
+      </h1>
+
+    </div>
+  </section>
+
+    <section class="normal row sub-row">
+      <div class="content-area">
+        <h2 class="colum-content block-colum-title">
+          Node.js
+        </h2>
+        <div class="colum third">
+          <p class="colum-content">With the growing popularity of a Node based back end, I have been given access to a powerful set of API and build process tools like <strong>Express</strong>, <strong>Grunt</strong> and <strong>Ember App Kit</strong>.  This breaks the barrier between front and back end and has allowed me to jump back and forth seamlessly.</p><p class="colum-content">I have built <a href="https://github.com/jimbol/ember-template-middleware" target="_blank">template precompiler middleware</a> that ensures the developer always has the latest code, without having to do a whole build.  I’ve used Grunt to take this to the next level, automatically updating the DOM with each saved change.  This site was built using Ember App Kit and the styles and Javascript has been minified into production ready code using Grunt.</p><p class="colum-content"></p>
+        </div><div class="colum third">
+          <h3 class="colum-content">Relevant skills</h3>
+          <ul class="colum-content pill-list">
+            <li>Express</li><li>Grunt</li><li>Middleware</li><li>Ember App Kit</li>
+          </ul>
+        </div><div class="colum third">
+          <h3 class="colum-content">Relevant Work History</h3>
+
+          <ul class="pill-list colum-content">
+            <li class="pill-button">Javascript Developer - Qualified (part of Kaplan)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="normal row sub-row">
+      <div class="content-area">
+        <h2 class="colum-content block-colum-title">
+          Other
+        </h2>
+        <div class="colum third">
+          <p class="colum-content">I have also used PHP and JSP to help build APIs and standard thin-client MCV websites.  I do not have extensive experience with either but I am a quick study and have made myself a valuable asset by learning what it needed to get the job done</p>
+        </div><div class="colum third">
+          <h3 class="colum-content">Relevant skills</h3>
+          <ul class="colum-content pill-list">
+            <li>PHP</li><li>JSP</li><li>Objective C / Cocoa</li>
+          </ul>
+        </div><div class="colum third">
+          <h3 class="colum-content">Relevant Work History</h3>
+
+          <ul class="pill-list colum-content">
+            <li class="pill-button">Front End Developer - Tribune Co.</li><li class="pill-button">Co-founder and Developer - Pander Commander</li><li class="pill-button">Web Developer - C|Change Inc.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+  <section class="inverted row header-row" id="mentorship">
+    <div class="content-area">
+      <h1 class="colum-content block-colum-title">
+        Mentorship
+      </h1>
+
+        <div class="content-area">
+          <div class="colum full">
+            <p class="colum-content">I believe there is nothing more important than <strong>sharing knowledge</strong>, especially when working with a team.  It improves the performance of individuals and, as a result, a team as a whole.  Whether it comes in the form of <strong>code reviews, structured training, or helping a developer</strong> with concepts that are new to them, I will always provide help (and I expect the same from my team mates).</p>
+          </div>
+        </div>
+
+    </div>
+  </section>
+
+
+  <section class="normal row header-row" id="contact">
+    <div class="content-area">
+      <h1 class="colum-content block-colum-title">
+        Contact
+      </h1>
+
+        <div class="content-area">
+          <div class="colum full">
+            <p class="colum-content"><strong>I am currently looking for new work.</strong>  To get in touch, shoot me an email at <a href="mailto:jim.hall.dev@gmail.com">jim.hall.dev@gmail.com</a> or find me on <a href="http://www.linkedin.com/pub/jim-hall/23/57/aa8/" target="_blank" class="icon linkedin">LinkedIn</a> or <a href="https://github.com/jimbol" target="_blank" class="icon github">GitHub</a>.</p><p class="colum-content">Photo by <a href="http://elisalynnephotography.com" target="_blank">Elisa Lynne Photography</a></p>
+          </div>
+        </div>
+
+    </div>
+  </section>
+
+
+
+</div>
