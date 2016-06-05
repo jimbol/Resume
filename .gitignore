@@ -1,6 +1,4 @@
 .DS_Store
-/assets/index.bundled.js
-/assets/index.css
 /lib
 /node_modules
 npm-debug.log
