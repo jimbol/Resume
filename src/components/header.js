@@ -6,7 +6,7 @@ let Header = React.createClass({
         <div className="content-area">
           <div className="page-header">
             <h1>Jim Hall</h1>
-            <h2>Javascript Developer</h2>
+            <h2>Web Developer</h2>
             <ul className="nav pill-list inverted">
 
                 <li className="pill-button"><a href="#javascript">Javascript Development</a></li>
