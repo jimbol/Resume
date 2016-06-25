@@ -12,10 +12,7 @@ let Footer = React.createClass({
             Email: jim.hall.dev@gmail.com
           </p>
           <p className="colum-content" >
-            Phone: 773-8991755
-          </p>
-          <p className="colum-content" >
-            <strong>Currently looking for a position in Ann Arbor, MI</strong>
+            <strong>Status: Not looking</strong>
           </p>
         </div>
         <div className="colum half">
