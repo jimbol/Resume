@@ -435,19 +435,6 @@ var Header = React.createClass({
             "p",
             { className: "colum-content" },
             "Theres nothing more satisfying than making something that works and works well! Thats why when I craft code, I do so with the goal of making it clean, scaleable, and well tested."
-          ),
-          React.createElement(
-            "p",
-            { className: "colum-content" },
-            React.createElement(
-              "a",
-              { href: "https://drive.google.com/file/d/0B3yEHWaWdqyrdTloWkM4bUlCOVE/view", target: "_blank" },
-              React.createElement(
-                "button",
-                null,
-                "Download Resume (PDF)"
-              )
-            )
           )
         )
       )

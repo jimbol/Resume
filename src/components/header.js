@@ -26,9 +26,6 @@ let Header = React.createClass({
             <p className="colum-content">
               Theres nothing more satisfying than making something that works and works well! Thats why when I craft code, I do so with the goal of making it clean, scaleable, and well tested.
             </p>
-            <p className="colum-content">
-              <a href="https://drive.google.com/file/d/0B3yEHWaWdqyrdTloWkM4bUlCOVE/view" target="_blank"><button>Download Resume (PDF)</button></a>
-            </p>
           </div>
         </div>
       </section>
