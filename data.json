@@ -3,7 +3,7 @@
         "introduction": {
             "sections": [{
                 "subtitle": "Who is this guy?",
-                "description": "As long as I can remember I've enjoyed concepting, designing, and building things. In hindsight, it makes sense that I've wound up doing development. I use all these skills in my work and I relish it. \n I have been developing for over 6 years with my primary focus being server and client javascript development, feature architecture, and project leadership. I care about delivering well tested, performant, maintainable code and building tooling to enable others to do the same.\nVarious experiences have led me to concentrate on JavaScript as my primary language. The trends with JavaScript are thrilling to use and participate in. I thrive in this environment of new technology but also I crave a deeper knowledge of other languages and applications of software. My favorite pass time is to explore these and so I have dabbled with Python, Arduino, and Raspberry Pi.\n"
+                "description": "As long as I can remember I've enjoyed concepting, designing, and building things. In hindsight, it makes sense that I've wound up doing development. I use all these skills in my work and I relish it. \n I have been developing for over 6 years with my primary focus being server and client javascript development, feature architecture, and project leadership. I care about delivering well tested, performant, maintainable code and building tooling to enable others to do the same.\nVarious experiences have led me to concentrate on JavaScript as my primary language. The trends with JavaScript are thrilling to use and participate in. I thrive in this environment of new technology but also I crave a deeper knowledge of other languages and applications of software. My favorite pastime is to explore these and so I have dabbled with Python, Arduino, and Raspberry Pi.\n"
             }]
         },
         "jsDev": {
@@ -29,7 +29,7 @@
                 "jobs": [1, 2, 4]
             }, {
                 "subtitle": "Build Tools",
-                "description": ["There are countless approaches for building the parts of an application. Sometimes I feel like using npm scripts is enough, but if I need more control Gulp has been my go-to. The two combined with CI tools like Travis or Jenkins you can automate much of the grunt work of building resources and deploying."],
+                "description": ["There are countless approaches for building the parts of an application. Sometimes I feel like using npm scripts is enough, but if I need more control Gulp has been my go-to. The two combined with CI tools like Travis or Jenkins can automate much of the grunt work of building resources and deploying."],
                 "skills": [7, 19, 20, 22, 4, 8, 11, 12, 24],
                 "jobs": [1, 2]
             }]
