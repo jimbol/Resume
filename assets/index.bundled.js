@@ -263,7 +263,7 @@ var AboutRow = React.createClass({
               null,
               "JavaScript"
             ),
-            " as my primary language. The trends with JavaScript are thrilling to use and participate in. I thrive in this environment of new technology but also I crave a deeper knowledge of other languages and applications of software. My favorite pass time is to explore these and so I have dabbled with Python, Arduino, Raspberry Pi, statistics, and machine learning."
+            " as my primary language. The trends with JavaScript are thrilling to use and participate in. I thrive in this environment of new technology but also I crave a deeper knowledge of other languages and applications of software. My favorite pastime is to explore these and so I have dabbled with Python, Arduino, Raspberry Pi, statistics, and machine learning."
           )
         )
       )
